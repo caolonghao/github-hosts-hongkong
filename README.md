@@ -2,7 +2,7 @@
 
 This repository provides a `hosts` file for GitHub domains, resolved locally to optimize connectivity.
 
-**Last Updated:** 2026-02-05 18:50:25
+**Last Updated:** 2026-02-06 02:52:24 (Beijing Time)
 
 ## Usage
 
@@ -14,44 +14,44 @@ Append the content of `hosts` to your system's hosts file.
 ### Content
 ```text
 # Github Hosts
-# Updated: 2026-02-05 18:50:25
+# Updated: 2026-02-06 02:52:24 (Beijing Time)
 # Repo: https://github.com/caolonghao/github-hosts-hongkong
 
-140.82.113.25        alive.github.com
-140.82.113.25        live.github.com
-185.199.109.154      github.githubassets.com
-140.82.114.22        central.github.com
-185.199.110.133      desktop.githubusercontent.com
+140.82.112.25        alive.github.com
+140.82.112.25        live.github.com
+185.199.110.154      github.githubassets.com
+140.82.113.22        central.github.com
+185.199.111.133      desktop.githubusercontent.com
 185.199.110.133      camo.githubusercontent.com
-185.199.108.133      github.map.fastly.net
+185.199.111.133      github.map.fastly.net
 151.101.1.194        github.global.ssl.fastly.net
 20.205.243.166       gist.github.com
-185.199.111.153      github.io
+185.199.109.153      github.io
 20.205.243.166       github.com
 192.0.66.2           github.blog
 20.205.243.168       api.github.com
 185.199.110.133      raw.githubusercontent.com
 185.199.111.133      user-images.githubusercontent.com
 185.199.111.133      favicons.githubusercontent.com
-185.199.109.133      avatars5.githubusercontent.com
-185.199.108.133      avatars4.githubusercontent.com
-185.199.110.133      avatars3.githubusercontent.com
-185.199.108.133      avatars2.githubusercontent.com
+185.199.110.133      avatars5.githubusercontent.com
+185.199.109.133      avatars4.githubusercontent.com
+185.199.109.133      avatars3.githubusercontent.com
+185.199.111.133      avatars2.githubusercontent.com
 185.199.111.133      avatars1.githubusercontent.com
-185.199.111.133      avatars0.githubusercontent.com
-185.199.111.133      avatars.githubusercontent.com
+185.199.109.133      avatars0.githubusercontent.com
+185.199.110.133      avatars.githubusercontent.com
 20.205.243.165       codeload.github.com
-3.5.1.160            github-cloud.s3.amazonaws.com
-3.5.16.110           github-com.s3.amazonaws.com
-3.5.27.183           github-production-release-asset-2e65be.s3.amazonaws.com
-16.15.199.118        github-production-user-asset-6210df.s3.amazonaws.com
-16.15.179.183        github-production-repository-file-5c1aeb.s3.amazonaws.com
-185.199.109.153      githubstatus.com
-140.82.113.17        github.community
+16.15.193.197        github-cloud.s3.amazonaws.com
+52.217.80.148        github-com.s3.amazonaws.com
+52.216.58.1          github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.44.17         github-production-user-asset-6210df.s3.amazonaws.com
+52.216.248.244       github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.110.153      githubstatus.com
+140.82.112.18        github.community
 20.43.185.14         github.dev
-140.82.114.21        collector.github.com
+140.82.112.21        collector.github.com
 13.107.42.16         pipelines.actions.githubusercontent.com
-185.199.108.133      media.githubusercontent.com
-185.199.110.133      cloud.githubusercontent.com
-185.199.108.133      objects.githubusercontent.com
+185.199.111.133      media.githubusercontent.com
+185.199.108.133      cloud.githubusercontent.com
+185.199.110.133      objects.githubusercontent.com
 ```

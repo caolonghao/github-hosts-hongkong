@@ -34,10 +34,12 @@ def main():
         else:
             print(f"Failed to resolve: {domain}")
 
-    # Generate hosts file content
-    current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # Generate hosts file content with Beijing Time (UTC+8)
+    tz_beijing = datetime.timezone(datetime.timedelta(hours=8))
+    current_time = datetime.datetime.now(tz_beijing).strftime("%Y-%m-%d %H:%M:%S")
+    
     header = f"""# Github Hosts
-# Updated: {current_time}
+# Updated: {current_time} (Beijing Time)
 # Repo: https://github.com/caolonghao/github-hosts-hongkong
 
 """
@@ -52,7 +54,7 @@ def main():
 
 This repository provides a `hosts` file for GitHub domains, resolved locally to optimize connectivity.
 
-**Last Updated:** {current_time}
+**Last Updated:** {current_time} (Beijing Time)
 
 ## Usage
 
