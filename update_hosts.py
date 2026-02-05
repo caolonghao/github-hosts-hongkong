@@ -49,21 +49,33 @@ def main():
     with open(hosts_output, 'w') as f:
         f.write(full_content)
         
-    # Generate README.md
+    # Generate README.md with Chinese introduction
     readme_content = f"""# Github Hosts (Hong Kong)
 
-This repository provides a `hosts` file for GitHub domains, resolved locally to optimize connectivity.
+[English](./README.md) | [中文](./README.md)
 
-**Last Updated:** {current_time} (Beijing Time)
+This repository provides a `hosts` file for GitHub domains, resolved locally to optimize connectivity. It is specifically updated based on the local network resolution (Hong Kong).
 
-## Usage
+本项目提供 GitHub 相关域名的 `hosts` 解析内容，由本地网络 (香港) 通过 `nslookup` 实时获取解析地址，旨在优化 GitHub 的访问速度。
 
-### Local Usage
+---
+
+**Last Updated (最后更新):** {current_time} (Beijing Time / 北京时间)
+
+## Usage / 使用方法
+
+### Local Usage / 本地使用
 Append the content of `hosts` to your system's hosts file.
-- **Windows**: `C:\\Windows\\System32\\drivers\\etc\\hosts`
-- **Linux/macOS**: `/etc/hosts`
+将 `hosts` 文件中的内容添加到系统 hosts 文件末尾：
 
-### Content
+- **Windows**: `C:\\Windows\\System32\\drivers\\etc\\hosts`
+- **Linux / macOS**: `/etc/hosts`
+
+### Automation / 自动更新
+The repository is updated daily at 4:00 AM.
+本项目每日凌晨 4:00 自动执行更新。
+
+## Content / 解析内容
 ```text
 {full_content}
 ```
