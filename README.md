@@ -1,0 +1,42 @@
+# Github Hosts (Hong Kong)
+
+This repository provides a `hosts` file for GitHub domains, resolved locally to optimize connectivity.
+
+**Last Updated:** 2026-02-05 18:39:16
+
+## Usage
+
+### Local Usage
+Append the content of `hosts` to your system's hosts file.
+- **Windows**: `C:\Windows\System32\drivers\etc\hosts`
+- **Linux/macOS**: `/etc/hosts`
+
+### Content
+```text
+# Github Hosts
+# Updated: 2026-02-05 18:39:16
+# Repo: https://github.com/caolonghao/github-hosts-hongkong
+
+20.205.243.166       github.com
+20.205.243.168       api.github.com
+185.199.110.133      avatars.githubusercontent.com
+185.199.108.133      avatars0.githubusercontent.com
+185.199.108.133      avatars1.githubusercontent.com
+185.199.109.133      avatars2.githubusercontent.com
+185.199.110.133      avatars3.githubusercontent.com
+185.199.109.133      avatars4.githubusercontent.com
+185.199.111.133      avatars5.githubusercontent.com
+185.199.109.133      camo.githubusercontent.com
+185.199.109.133      cloud.githubusercontent.com
+20.205.243.165       codeload.github.com
+20.205.243.166       gist.github.com
+185.199.110.154      github.githubassets.com
+151.101.0.249        global.ssl.fastly.net
+185.199.108.133      marketplace-screenshots.githubusercontent.com
+185.199.109.133      raw.githubusercontent.com
+185.199.109.133      repository-images.githubusercontent.com
+185.199.110.133      user-images.githubusercontent.com
+13.107.213.73        vscode.dev
+20.43.185.14         github.dev
+4.237.22.41          copilot-proxy.githubusercontent.com
+```
